@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/blood.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-auto-animate>
+					<img class="r-stretch" src="attachments/obsidian-logo.png" height="500"/>
+					<h1>Obsidian</h1>
+				</section>
+
+				<section data-auto-animate>
+					<h1 style="color:mediumpurple;">Obsidian</h1>
+					<p>The private and flexible writing app that adapts to the way you think</p>
+					<p class="fragment" style="color: mediumpurple;">Great... what does that mean?</p>
+				</section>
+
+				<section data-auto-animate data-auto-animate-restart>
+					<h6 class="r-fit-text">It means it can adapt to just about anything</h6>
+				</section>
+
+				<section data-auto-animate>
+					<h6 style="color: mediumpurple;" class="r-fit-text">It means it can adapt to just about anything</h6>
+					<ul>
+						<li>General Note Taking</li>
+						<li class="fragment">Structured Periodic Journaling</li> 
+						<li class="fragment">Knowledge Bases</li>
+						<li class="fragment">Project Management Tool</li>
+						<li class="fragment">Calendar</li>
+						<li class="fragment">To Do Lists</li>
+						<li class="fragment">Blog</li>
+						<li class="fragment">Brainstorming Center</li>
+						<li class="fragment">Presentations</li>
+						<li class="fragment" style="color: mediumpurple;">and so much more...</li>
+					</ul>
+				</section>
+
+
+				<section data-auto-animate data-auto-animate-restart>
+					<h4>How does Obsidian do all that?</h4>
+				</section>
+
+				<section data-auto-animate>
+					<h4>How does Obsidian do all that?</h4>
+					<div class="container">
+						<div>
+							<p style="color: mediumpurple;">Core Plugins</p>
+							<ul>
+								<li class="fragment">Backlinks and Outging Links</li>
+								<li class="fragment">Daily Notes</li>
+								<li class="fragment">Graph View</li>
+								<li class="fragment">Search</li>
+								<li class="fragment">Templates</li>
+								<li class="fragment">Canvas</li>
+								<li class="fragment">Publish and Sync 💸</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+				<section data-auto-animate>
+					<h4>How does Obsidian do all that?</h4>
+					<div class="container">
+						<div>
+							<p>Core Plugins</p>
+							<ul>
+								<li>Backlinks and Outging Links</li>
+								<li>Daily Notes</li>
+								<li>Graph View</li>
+								<li>Search</li>
+								<li>Templates</li>
+								<li>Canvas</li>
+								<li>Publish and Sync 💸</li>
+							</ul>
+						</div>
+						<div>
+							<p style="color: mediumpurple;">Community Plugins</p>
+							<ul>
+								<li class="fragment">Calendar</li>
+								<li class="fragment">Checklist</li>
+								<li class="fragment">Dataview</li>
+								<li class="fragment">Excalidraw</li>
+								<li class="fragment">Git</li>
+								<li class="fragment">Style Settings</li>
+								<li class="fragment">Tasks</li>
+								<li class="fragment">Templater</li>
+							</ul>
+						</div>
+					</div>
+				</section>
+
+
+				<section data-auto-animate data-auto-animate-restart>
+					<h3>How did I find Obsidian?</h3>
+				</section>
+
+				<section data-auto-animate>
+					<h3 style="color: mediumpurple;">How did I find Obsidian?</h3>
+					<ul>
+						<li>I started taking notes for general University classes</li>
+						<li class="fragment">I found a decent solution and workflow</li>
+						<li class="fragment">I was then exposed to the world of Linux, Markdown, and some really cool software</li>
+						<li class="fragment">My curiosity for a better solution was sparked</li>
+					</ul>
+					<p class="fragment" style="color: mediumpurple;">Sound familiar?</p>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+		<style>
+			.container{
+				display: grid;
+				grid-auto-flow: column;
+				text-align: left;
+				}
+		</style>
+	</body>
+</html>
